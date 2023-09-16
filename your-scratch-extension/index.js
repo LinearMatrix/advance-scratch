@@ -193,7 +193,7 @@ class Advance {
         return false
     }
     isbn({P,C}){
-        return fetch('https://openlibrary.org/isbn'+C+'.json')
+        return fetch('https://openlibrary.org/isbn/'+C+'.json')
             .then((response)=>{
                 if(response.ok){
                     return response.json();
