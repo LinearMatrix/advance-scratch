@@ -17,11 +17,11 @@ index ba18b91..e316f38 100644
  
  export default [
 +    {
-+        name: 'Your Extension',
-+        extensionId: 'yourScratchExtension',
++        name: 'Advance',
++        extensionId: 'advance',
 +        iconURL: yourExtensionIconURL,
 +        insetIconURL: yourExtensionInsetIconURL,
-+        description: 'Your custom Scratch extension',
++        description: 'Advance is our new Scratch extension replacing MasterTask, with new arranged functions with its category. Template is thanks to Dale Lane! +new blocks!',
 +        featured: true,
 +        disabled: false
 +    },
