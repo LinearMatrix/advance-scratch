@@ -134,7 +134,7 @@ class Advance {
                 },
                 {
                     opcode: 'isbn',
-                    blockType: BlockType.BOOLEAN,
+                    blockType: BlockType.REPORTER,
                     text: '[P] of book from ISBN code [C] using Open Library',
                     terminal: false,
                     filter: [ TargetType.SPRITE, TargetType.STAGE ],
