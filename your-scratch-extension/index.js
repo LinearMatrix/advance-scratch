@@ -198,7 +198,7 @@ class Advance {
                 if(response.ok){
                     return response.json();
                 }else{
-                    return {title:'unknown'};
+                    return {title:'unknown',publishers:'unknown',publish_date:'unknown',number_of_pages:'unknown'};
                 }
             })
             .then((binfo)=>{
